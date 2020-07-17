@@ -186,12 +186,16 @@
           </div>
 
           <div class="formulario-content">
-            <form id="formulario" method="POST" action="enviar.php">
-              <label for="user">Nombre:</label>
+            <form
+              id="formulario"
+              action="http://formspree.io/arganarazalvaro@gmail.com"
+              method="POST"
+            >
+              <label for="name">Nombre:</label>
               <input
                 type="text"
                 id="user"
-                name="user"
+                name="name"
                 placeholder="Ingresa tu nombre"
               />
 
@@ -199,15 +203,15 @@
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="_replyto"
                 placeholder="Ingresa tu correo electrónico"
               />
 
               <label for="mensaje">Escribe tu mensaje:</label>
-              <textarea id="mensaje" name="mensaje"></textarea>
+              <textarea id="mensaje" name="body"></textarea>
 
               <div class="send">
-                <imput type="submit" value="Enviar"
+                <imput type="submit" value="Send"
                   ><button>Enviar</button></imput
                 >
               </div>
