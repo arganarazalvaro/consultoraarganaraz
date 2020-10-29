@@ -46,7 +46,7 @@ window.onscroll = () => {
     containerMenu.style.top = "0";
     containerMenu.style.transition = "0.5s";
   } else {
-    containerMenu.style.top = "-60px";
+    containerMenu.style.top = "0px";
     containerMenu.style.transition = "0.5s";
   }
   prevScrollPos = currentScrollPos;
