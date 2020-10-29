@@ -588,6 +588,9 @@ body {
 
 /** Media Query **/
 @media only screen and (max-width: 900px) {
+  .menu .logo-box h1 a {
+  font-size: 30px;
+}
   .btn-menu > .fa-bars {
     display: block;
     position: absolute;
@@ -639,6 +642,9 @@ body {
 }
 
 @media only screen and (max-width: 773px) {
+  .menu .logo-box h1 a {
+  font-size: 25px;
+}
   /** IMG Header **/
   .img-header .welcome h1 {
     font-size: 40px;
@@ -664,6 +670,9 @@ body {
 }
 
 @media only screen and (max-width: 446px) {
+  .menu .logo-box h1 a {
+  font-size: 20px;
+  }
   .our-projects .container-project .project-title h2 {
     font-size: 27px;
   }
@@ -682,6 +691,9 @@ body {
 }
 
 @media only screen and (max-width: 590px) {
+  .menu .logo-box h1 a {
+  font-size: 23px;
+}
   /** IMG Header **/
   .img-header .welcome h1 {
     font-size: 30px;
@@ -795,3 +807,4 @@ body {
     cursor: pointer;
   }
 }
+
